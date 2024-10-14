@@ -1,0 +1,99 @@
+/* * Header Css start */
+body {
+  background-color: #000;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*? Nav List start  */
+
+.header .navbar .navList {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 35px;
+}
+
+.header .navbar .navList li a {
+  font-size: 16px;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.header .navbar .navList li a:hover {
+  color: #d6ad86;
+}
+
+/*? Nav List end  */
+
+/* ? Dropdown start */
+
+.blogItem {
+  position: relative;
+}
+
+.blogItem a {
+  text-decoration: none;
+  padding: 10px 0;
+  color: #333;
+}
+
+.blogList {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: white;
+  padding: 10px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  min-width: 200px;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+.blogList li a {
+  padding: 10px 20px;
+  color: #333 !important;
+  display: block;
+  white-space: nowrap;
+}
+
+.blogList li a:hover {
+  background-color: #f0f0f0;
+  color: #d3ad7f;
+}
+
+.blogItem:hover .blogList {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* ? Dropdown end */
+
+/* ? Nav Socials start */
+
+.navSocials{
+    display: flex;
+    gap: 15px;
+}
+
+.navSocials i {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* ? Nav Socials end */
+
+/* * Header Css end */
