@@ -1,7 +1,5 @@
 /* * Header Css start */
-body {
-  background-color: #000;
-}
+
 .header {
   position: fixed;
   width: 100%;
@@ -85,9 +83,9 @@ body {
 
 /* ? Nav Socials start */
 
-.navSocials{
-    display: flex;
-    gap: 15px;
+.navSocials {
+  display: flex;
+  gap: 15px;
 }
 
 .navSocials i {
@@ -98,3 +96,85 @@ body {
 /* ? Nav Socials end */
 
 /* * Header Css end */
+
+/* * Banner Css start */
+
+.banner {
+  background-image: url(../../images/banner_bg.png.webp);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.banner h5 {
+  color: #d6ad86;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.banner h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 84px;
+    margin: 20px 0 46px;
+}
+
+.bannerText{
+    padding: 200px 0;
+}
+
+/* * Banner Css end */
+
+/* * About Css start */
+
+.about{
+    background-color: #fff;
+    
+}
+
+.about .row{
+    margin: auto;
+    display: flex;
+    box-shadow: 0px 20px 40px 0px rgba(221, 221, 221, 0.3);
+    position: relative;
+    margin-top: -250px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.about .wrapper{
+    display: flex;
+    gap: 90px;
+    margin: auto;
+    padding: 70px;
+}
+
+.about h2{
+    line-height: 56px;
+    font-size: 46px;
+    margin: 9px 0 30px;
+    color: #000;
+}
+
+.about h5{
+    color: #d6ad86;
+}
+
+.about p{
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.about .btnBlack{
+    background-color: #000 !important;
+}
+
+/* * About Css end */
+
