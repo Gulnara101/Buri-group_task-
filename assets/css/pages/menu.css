@@ -9,12 +9,13 @@
     list-style: none;
     font-family: "Montserrat", serif;
 }
+
 .coffee{
     background-image: url(../../images/breadcrumb.png);
-    height: 80%;
+    height: 500px;
 }
 .hero{
-    height: 600px;
+    
     background-repeat: no-repeat;
 }
 .coffeeInfo{
@@ -78,3 +79,5 @@
     flex-direction: column;
     gap: 40px;
 }
+
+
