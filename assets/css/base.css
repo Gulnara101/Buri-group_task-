@@ -37,3 +37,15 @@ a{
     transition: 0.5s;
 }
 
+.btn .btnBlack{
+    background-color: #000;
+}
+
+.btnBlack:hover{
+    background-color: #ffb830;
+}
+
+.btn:hover{
+    background-color: #ffb830;
+}
+
