@@ -269,6 +269,7 @@ h2 {
 /* CONTACT */
 .pWrite {
   color: #555555 !important;
+  font-size: 16px;
 }
 .contact h5 {
   font-size: 15px;
@@ -301,6 +302,7 @@ h3 {
 }
 .contact a {
   color: #000;
+  font-size: 16px;
 }
 /* CONTACT */
 
@@ -364,8 +366,8 @@ h2 {
 .videoMpFour a {
   border: 0px solid;
   background-color: #d6ad86;
-  padding: 30px;
-  border-radius: 50%;
+  padding: 30px 35px;
+  border-radius: 100%;
   /* justify-content: center;
   align-items: center;
   display: flex;

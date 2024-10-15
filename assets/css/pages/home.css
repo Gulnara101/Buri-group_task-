@@ -178,3 +178,116 @@
 
 /* * About Css end */
 
+/* * Menu Css start */
+.rowCards.pt{
+    padding-top: 50px;
+}
+
+.menu{
+    background-color: #fff;
+}
+
+.menu .secCap{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.menu .secCap h5{
+    color: #d6ad86;
+}
+
+.menu .secCap h2{
+    color: #000;
+}
+
+.menu .price{
+    padding: 0;
+}
+
+.menu .desc{
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+/* * Menu Css end */
+
+/* * Testimonials Css start */
+
+.testimonials{
+    background-color: #fff;
+}
+
+.testimonials .secCap{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.testimonials .secCap h5{
+    color: #d6ad86;
+    padding-bottom: 20px;
+}
+
+.testimonials .secCap h2{
+    color: #000;
+}
+
+.userBox{
+    display: flex;
+    gap: 20px;
+}
+
+.user{
+    display: flex;
+    margin-top: 20px;
+}
+
+.comment{
+    border: 1px solid #eee;
+}
+
+.comment p{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 20px 28px;
+    border: 1px solid #f6ede4;
+    margin: 1px;
+}
+
+.userInfo{
+    margin-left: 10px;
+}
+
+.userInfo h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 6px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.userInfo .stars i{
+    font-size: 16px;
+    color: #ffb830;
+}
+
+.pagination{
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #f7efe7;
+    margin: 5px;
+}
+
+/* * Testimonials Css end */
+
+
