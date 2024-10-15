@@ -1,0 +1,80 @@
+/* ! Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", serif;
+}
+.coffee{
+    background-image: url(../../images/breadcrumb.png);
+    height: 80%;
+}
+.hero{
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.coffeeInfo{
+    padding-top: 200px;
+}
+.coffeeInfo h2{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.coffeeInfo p{
+    color: #D6AD86;
+    font-size: 15px;
+}
+.cards{
+    background-color: white;
+}
+.card{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #f3e6da;
+    width: 560px;
+}
+.Info{
+    padding-left: 26px;
+    padding-top: 26px;
+}
+.Info h3{
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+.Info p{
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #555555;
+}
+.Info h5{
+    padding-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.rowCards{
+    display: flex;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    column-gap: 20px;  
+      
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
