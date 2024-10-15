@@ -19,3 +19,17 @@
 a{
     color: #000;
 }
+
+.btn{
+    display: inline-block;
+    padding: 23px 60px;
+    background-color: #d6ad86;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 14px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+

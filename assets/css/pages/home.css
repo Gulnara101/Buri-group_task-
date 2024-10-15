@@ -1,11 +1,10 @@
 /* * Header Css start */
-body {
-  background-color: #000;
-}
+
 .header {
   position: fixed;
   width: 100%;
   margin-top: 50px;
+  z-index: 999;
 }
 
 .header .row {
@@ -84,9 +83,9 @@ body {
 
 /* ? Nav Socials start */
 
-.navSocials{
-    display: flex;
-    gap: 15px;
+.navSocials {
+  display: flex;
+  gap: 15px;
 }
 
 .navSocials i {
@@ -97,3 +96,34 @@ body {
 /* ? Nav Socials end */
 
 /* * Header Css end */
+
+/* * Banner Css start */
+
+.banner {
+  background-image: url(../../images/banner_bg.png.webp);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h5 {
+  color: #d6ad86;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.banner h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 84px;
+    margin: 20px 0 46px;
+}
+
+.bannerText{
+    padding: 200px 0;
+}
+
+/* * Banner Css end */
