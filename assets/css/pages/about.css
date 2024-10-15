@@ -110,6 +110,7 @@ h1 {
 }
 .heroAbout {
   padding-top: 200px;
+
 }
 
 body {
@@ -229,6 +230,14 @@ h1 {
   justify-content: center;
   gap: 35px;
 }
+.row.marginmt{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.heroAbout h1{
+  font-weight: 300;
+  font-family: "Playfair Display", serif;
+}
 .learnMore {
   border: 0px solid;
   background-color: black;
@@ -255,6 +264,7 @@ h2 {
 .about .row.marginmt {
   margin-top: 0;
 }
+
 .aboutUs {
   background-color: white;
   height: 100vh;
@@ -263,6 +273,86 @@ h2 {
   justify-content: center;
   display: flex;
 }
+
+/* * Testimonials Css start */
+
+.testimonials {
+  background-color: #fff;
+}
+
+.testimonials .secCap {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.testimonials .secCap h5 {
+  color: #d6ad86;
+  padding-bottom: 20px;
+}
+
+.testimonials .secCap h2 {
+  color: #000;
+}
+
+.userBox {
+  display: flex;
+  gap: 20px;
+}
+
+.user {
+  display: flex;
+  margin-top: 20px;
+}
+
+.comment {
+  border: 1px solid #eee;
+}
+
+.comment p {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 20px 28px;
+  border: 1px solid #f6ede4;
+  margin: 1px;
+}
+
+.userInfo {
+  margin-left: 10px;
+}
+
+.userInfo h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+  padding-top: 6px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.userInfo .stars i {
+  font-size: 16px;
+  color: #ffb830;
+}
+
+.pagination {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #f7efe7;
+  margin: 5px;
+}
+
+/* * Testimonials Css end */
+
 /* CONTACT */
 .pWrite {
   color: #555555 !important;
@@ -303,79 +393,112 @@ h3 {
 }
 /* CONTACT */
 
-/* FOOTER sTART */
-footer {
-  background-color: #1c1a18;
+/* * Footer Css start */
+
+.footer {
+  padding-top: 100px;
 }
-footer p,
-a,
-h2 {
-  color: white;
-}
-.endSection {
-  display: flex;
-  gap: 30px;
-  padding: 100px;
-}
-.footerrr {
-  justify-content: center;
-  flex-direction: column;
+
+.footer .row {
   display: flex;
   justify-content: space-between;
-  /* padding: 100px; */
 }
-.first {
+
+.footer .leftSide {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 33%;
 }
-.quicks{
-  font-size: 25px;
-  font-family: "Playfair Display", serif;
+
+.footer .leftSide a {
+  font-size: 14px;
 }
-.quicksEnd{
+
+.footer .leftSide .footerContact {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 40px;
 }
-.aMail{
-  color: #d6ad86;
+
+.footer .leftSide .footerSocials {
+  padding-top: 30px;
 }
-.aWrite{
-  color: #6b6666 ;
-  font-weight: 500;
+
+.footer .middle {
+  width: 33%;
 }
-.quicksEnd a{
-  color: #6b6666 ;
-  font-weight: 500;
+
+.middle .footerTittle {
+  color: #fff;
+  font-size: 22px;
+  padding-bottom: 20px;
 }
-.iconsEnd{
+
+.middle .links {
   display: flex;
+  gap: 50px;
+}
+
+.middle .links ul {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
-.newsLetter h2{
-  font-size: 25px;
-  font-family: "Playfair Display", serif;
-  
+
+.middle .links ul li a {
+  font-size: 16px;
+  color: #747171;
 }
-.newsLetter p{
-  color: #6b6666;
+
+.footer .righSide {
+  width: 33%;
 }
-.newsLetter input{
-  width: 80%;
-  height: 40px;
+
+.righSide .footerTittle {
+  color: #fff;
+  font-size: 22px;
+  padding-bottom: 20px;
 }
-.inputa{
+
+.righSide form input {
+  padding: 10px 0;
   position: relative;
 }
-.newsLetter a{
-  border: 0px solid;
+
+.righSide form {
+  padding-bottom: 20px;
+}
+
+.righSide p {
+  font-size: 16px;
+  color: #747171;
+}
+
+.righSide form i {
   background-color: #d6ad86;
-  padding: 10px;
+  color: #fff;
+  padding: 11.9px;
   position: absolute;
-  right: 21px;
 }
-.colorlib{
+
+.copyright {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-/* FOOTER END */
+
+.copyright p {
+  font-size: 16px;
+  color: #747171;
+}
+
+.copyright a {
+  color: #d6ad86;
+}
+
+/* * Footer Css end */
 
 
 footer p,
@@ -403,10 +526,6 @@ h2 {
   background-color: #d6ad86;
   padding: 30px 35px;
   border-radius: 100%;
-  /* justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column; */
   top: 45%;
   left: 45%;
   position: absolute;

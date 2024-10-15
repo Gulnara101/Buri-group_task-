@@ -158,6 +158,9 @@
   margin: 9px 0 30px;
   color: #000;
 }
+.secCap h2{
+  font-family: "Playfair Display", serif;
+}
 
 .about h5 {
   color: #d6ad86;
